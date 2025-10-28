@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
    
-    const API_KEY = 'Bearer [eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyNjIwODUxY2JhNjZhMzllNzMxNWY2N2FiNDUwYmFjYiIsIm5iZiI6MTc2MTYxODkzOS42NjYsInN1YiI6IjY5MDAyYmZiZjFlODkyNGEzMzlmYjg1NiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.XshU-jQb8QP9dUW1nD9xG0V1CCc69rsjBlgcg--amMk]'; 
+    const API_KEY ='Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyNjIwODUxY2JhNjZhMzllNzMxNWY2N2FiNDUwYmFjYiIsIm5iZiI6MTc2MTYxODkzOS42NjYsInN1YiI6IjY5MDAyYmZiZjFlODkyNGEzMzlmYjg1NiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.XshU-jQb8QP9dUW1nD9xG0V1CCc69rsjBlgcg--amMk';
     
     const BASE_URL = 'https://api.themoviedb.org/3';
     const IMG_URL = 'https://image.tmdb.org/t/p/w500';
