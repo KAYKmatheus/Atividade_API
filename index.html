@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieApp+ | Busca Avançada</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>MovieApp+</h1>
+        <nav>
+            <form id="search-form">
+                <input type="text" id="search-input" placeholder="Buscar filme por nome...">
+                <button type="submit">Buscar</button>
+            </form>
+
+            <form id="filter-form">
+                <div class="form-group">
+                    <label for="genre-select">Gênero:</label>
+                    <select id="genre-select">
+                        <option value="">Todos</option>
+                        </select>
+                </div>
+                <div class="form-group">
+                    <label for="year-input">Ano:</label>
+                    <input type="number" id="year-input" min="1900" max="2025" placeholder="Ex: 2023">
+                </div>
+                <button type="submit">Filtrar</button>
+            </form>
+        </nav>
+    </header>
+
+    <main id="movies-container">
+        </main>
+
+    <div id="modal-overlay" class="hidden">
+        <div id="modal-content">
+            <button id="modal-close">&times;</button>
+            <div id="modal-body">
+                </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
